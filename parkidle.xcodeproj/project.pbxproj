@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48F31B8428D5E599B61CE4F1 /* Pods_parkidleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085794FDDF4AF03C7DC0CA90 /* Pods_parkidleTests.framework */; };
 		542621F820571FDF00A67C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542621F720571FDF00A67C4E /* AppDelegate.swift */; };
 		542621FA20571FDF00A67C4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542621F920571FDF00A67C4E /* ViewController.swift */; };
 		542621FD20571FDF00A67C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542621FB20571FDF00A67C4E /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		5426220520571FDF00A67C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5426220320571FDF00A67C4E /* LaunchScreen.storyboard */; };
 		5426221020571FE000A67C4E /* parkidleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5426220F20571FE000A67C4E /* parkidleTests.swift */; };
 		5426221B20571FE000A67C4E /* parkidleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5426221A20571FE000A67C4E /* parkidleUITests.swift */; };
+		542622292057207800A67C4E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 542622282057207800A67C4E /* Podfile */; };
+		54BC6AF4205895FB00C60D85 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BC6AF3205895FB00C60D85 /* MapViewController.swift */; };
+		5D8895810C91CB6612089241 /* Pods_parkidleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23812782AA2AA0A4D6C1B578 /* Pods_parkidleUITests.framework */; };
+		FBCC7F9CF4122D19DEC99150 /* Pods_parkidle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB8A47F544F1C28EB11B035 /* Pods_parkidle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085794FDDF4AF03C7DC0CA90 /* Pods_parkidleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parkidleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6AFC213B3A4F4EE2D43DAC /* Pods-parkidleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parkidleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-parkidleUITests/Pods-parkidleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23812782AA2AA0A4D6C1B578 /* Pods_parkidleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parkidleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAE0D6D03AEC32F4D2702A6 /* Pods-parkidleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parkidleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-parkidleTests/Pods-parkidleTests.release.xcconfig"; sourceTree = "<group>"; };
+		3705D0DBBA8D5A432C468806 /* Pods-parkidle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parkidle.release.xcconfig"; path = "Pods/Target Support Files/Pods-parkidle/Pods-parkidle.release.xcconfig"; sourceTree = "<group>"; };
+		3EC5EB87F82DEB99FE81D1A3 /* Pods-parkidle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parkidle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-parkidle/Pods-parkidle.debug.xcconfig"; sourceTree = "<group>"; };
 		542621F420571FDF00A67C4E /* parkidle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parkidle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542621F720571FDF00A67C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		542621F920571FDF00A67C4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		5426221620571FE000A67C4E /* parkidleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parkidleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5426221A20571FE000A67C4E /* parkidleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parkidleUITests.swift; sourceTree = "<group>"; };
 		5426221C20571FE000A67C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542622282057207800A67C4E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		54BC6AF3205895FB00C60D85 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		71189A3BC503B9788B4417A9 /* Pods-parkidleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parkidleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-parkidleUITests/Pods-parkidleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF15C407B1B691EEC17AC2F9 /* Pods-parkidleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parkidleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-parkidleTests/Pods-parkidleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBB8A47F544F1C28EB11B035 /* Pods_parkidle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parkidle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBCC7F9CF4122D19DEC99150 /* Pods_parkidle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F31B8428D5E599B61CE4F1 /* Pods_parkidleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8895810C91CB6612089241 /* Pods_parkidleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +98,13 @@
 		542621EB20571FDF00A67C4E = {
 			isa = PBXGroup;
 			children = (
+				542622282057207800A67C4E /* Podfile */,
 				542621F620571FDF00A67C4E /* parkidle */,
 				5426220E20571FE000A67C4E /* parkidleTests */,
 				5426221920571FE000A67C4E /* parkidleUITests */,
 				542621F520571FDF00A67C4E /* Products */,
+				B7432E8683E1E6CE244E3470 /* Pods */,
+				62EC998145F8652BBCE851DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +128,7 @@
 				5426220320571FDF00A67C4E /* LaunchScreen.storyboard */,
 				5426220620571FDF00A67C4E /* Info.plist */,
 				542621FE20571FDF00A67C4E /* parkidle.xcdatamodeld */,
+				54BC6AF3205895FB00C60D85 /* MapViewController.swift */,
 			);
 			path = parkidle;
 			sourceTree = "<group>";
@@ -128,6 +151,29 @@
 			path = parkidleUITests;
 			sourceTree = "<group>";
 		};
+		62EC998145F8652BBCE851DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBB8A47F544F1C28EB11B035 /* Pods_parkidle.framework */,
+				085794FDDF4AF03C7DC0CA90 /* Pods_parkidleTests.framework */,
+				23812782AA2AA0A4D6C1B578 /* Pods_parkidleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7432E8683E1E6CE244E3470 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EC5EB87F82DEB99FE81D1A3 /* Pods-parkidle.debug.xcconfig */,
+				3705D0DBBA8D5A432C468806 /* Pods-parkidle.release.xcconfig */,
+				AF15C407B1B691EEC17AC2F9 /* Pods-parkidleTests.debug.xcconfig */,
+				2EAE0D6D03AEC32F4D2702A6 /* Pods-parkidleTests.release.xcconfig */,
+				0C6AFC213B3A4F4EE2D43DAC /* Pods-parkidleUITests.debug.xcconfig */,
+				71189A3BC503B9788B4417A9 /* Pods-parkidleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5426221F20571FE000A67C4E /* Build configuration list for PBXNativeTarget "parkidle" */;
 			buildPhases = (
+				A88E10920D8FE4AF3FB9C8E7 /* [CP] Check Pods Manifest.lock */,
 				542621F020571FDF00A67C4E /* Sources */,
 				542621F120571FDF00A67C4E /* Frameworks */,
 				542621F220571FDF00A67C4E /* Resources */,
+				AA25662610BB0FF261BB2435 /* [CP] Embed Pods Frameworks */,
+				02F39CF04448D222E72E03C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5426222220571FE000A67C4E /* Build configuration list for PBXNativeTarget "parkidleTests" */;
 			buildPhases = (
+				1F29DC868F2BDB4D4EE724C8 /* [CP] Check Pods Manifest.lock */,
 				5426220720571FDF00A67C4E /* Sources */,
 				5426220820571FDF00A67C4E /* Frameworks */,
 				5426220920571FDF00A67C4E /* Resources */,
+				7C4D643C6532AA6FEFD0AF00 /* [CP] Embed Pods Frameworks */,
+				29FB4B431DEEF04323F67ED0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5426222520571FE000A67C4E /* Build configuration list for PBXNativeTarget "parkidleUITests" */;
 			buildPhases = (
+				46859F870CB270D60020CF4A /* [CP] Check Pods Manifest.lock */,
 				5426221220571FE000A67C4E /* Sources */,
 				5426221320571FE000A67C4E /* Frameworks */,
 				5426221420571FE000A67C4E /* Resources */,
+				5F1FDB170B1563E2A628DF5C /* [CP] Embed Pods Frameworks */,
+				A7BD52255DB1E0725A655AF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +292,7 @@
 			files = (
 				5426220520571FDF00A67C4E /* LaunchScreen.storyboard in Resources */,
 				5426220220571FDF00A67C4E /* Assets.xcassets in Resources */,
+				542622292057207800A67C4E /* Podfile in Resources */,
 				542621FD20571FDF00A67C4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +313,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02F39CF04448D222E72E03C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-parkidle/Pods-parkidle-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parkidle/Pods-parkidle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F29DC868F2BDB4D4EE724C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-parkidleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29FB4B431DEEF04323F67ED0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parkidleTests/Pods-parkidleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46859F870CB270D60020CF4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-parkidleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1FDB170B1563E2A628DF5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parkidleUITests/Pods-parkidleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C4D643C6532AA6FEFD0AF00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parkidleTests/Pods-parkidleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BD52255DB1E0725A655AF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parkidleUITests/Pods-parkidleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A88E10920D8FE4AF3FB9C8E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-parkidle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA25662610BB0FF261BB2435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-parkidle/Pods-parkidle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parkidle/Pods-parkidle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		542621F020571FDF00A67C4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +482,7 @@
 				5426220020571FDF00A67C4E /* parkidle.xcdatamodeld in Sources */,
 				542621FA20571FDF00A67C4E /* ViewController.swift in Sources */,
 				542621F820571FDF00A67C4E /* AppDelegate.swift in Sources */,
+				54BC6AF4205895FB00C60D85 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +646,7 @@
 		};
 		5426222020571FE000A67C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC5EB87F82DEB99FE81D1A3 /* Pods-parkidle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +662,7 @@
 		};
 		5426222120571FE000A67C4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3705D0DBBA8D5A432C468806 /* Pods-parkidle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +678,7 @@
 		};
 		5426222320571FE000A67C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF15C407B1B691EEC17AC2F9 /* Pods-parkidleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +696,7 @@
 		};
 		5426222420571FE000A67C4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAE0D6D03AEC32F4D2702A6 /* Pods-parkidleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +714,7 @@
 		};
 		5426222620571FE000A67C4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6AFC213B3A4F4EE2D43DAC /* Pods-parkidleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +731,7 @@
 		};
 		5426222720571FE000A67C4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71189A3BC503B9788B4417A9 /* Pods-parkidleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

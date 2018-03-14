@@ -1,0 +1,6 @@
+framework module Pods_parkidle {
+  umbrella header "Pods-parkidle-umbrella.h"
+
+  export *
+  module * { export * }
+}
